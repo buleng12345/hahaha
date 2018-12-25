@@ -1,0 +1,22 @@
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+	background: red;
+}
+.head{
+	width: 100%;
+	height: 2.12rem;
+	background: #ff6700;
+}
+.head-top{
+	width: 100%;
+	height: 1.23rem;
+	background: blue;
+}
+
+.head-bottom{
+	width: 100%;
+	height: 0.89rem;
+	/* background: green; */
+}
