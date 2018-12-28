@@ -9,6 +9,7 @@
 	position: fixed;
 	left: 0;
 	top: 0;
+	z-index: 800;
 }
 .head-top{
 	width: 100%;
@@ -106,6 +107,7 @@ main{
 	width: 100%;
 	height: 5.35rem;
 	overflow: hidden;
+	position: relative;
 }
 .lunbo>ul{
 	width: 300%;
@@ -162,23 +164,30 @@ main{
 	background: #f1f7f5;
 }
 .ggao .ggao-top{
+	width: 100%;
+	height: 7.9rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
 .ggao .ggao-top .left{
-	display: flex;
-	align-items: flex-end;
-}
-.ggao .ggao-top .left img{
 	width: 5.35rem;
 	height: 7.64rem;
+}
+.ggao .ggao-top .left img{
+	width: 100%;
+	height: 100%;
 }
 .ggao .ggao-top .right{
 	width: 5.35rem;
 	height: 7.64rem;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.ggao .ggao-top .right .right-top,.right-bottom{
+	width: 5.35rem;
+	height: 3.75rem;
 }
 .ggao .ggao-top .right img{
 	width: 5.35rem;
@@ -231,6 +240,29 @@ main{
 	box-shadow: 0 -0.05rem 0.05rem 0.02rem rgba(0,0,0,0.1);
 }
 /* 推荐结束 */
+/* 尾开始 */
+.wei{
+	width: 100%;
+	height: 26rem;
+}
+.wei>ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+.wei>ul>li img{
+	width: 5.3rem;
+	height: 6.5rem;
+}
+.wei .liaojie{
+	width: 100%;
+	height: 1.75rem;
+	font-size: 0.45rem;
+	text-align: center;
+	color: #acacac;
+	margin-top: 0.2rem;
+}
+/* 尾结束 */
 /* 底部开始 */
 .dibu{
 	width: 100%;
