@@ -42,7 +42,7 @@
 }
 /* 头部结束 */
 /* 菜单开始 */
-.chanpin{
+.caidan{
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -50,18 +50,20 @@
 	padding-top: 1.5rem;
 	padding-bottom: 1.4rem;
 	box-sizing: border-box;
+	overflow: hidden;
+	
 }
-.chanpin-left{
+.caidan-left{
 	width: 2.25rem;
 	height: 100%;
 }
-.chanpin-left>ul{
+.caidan-left>ul{
 	width: 100%;
-	height: 200%;
+	height: 207%;
 	background: #fefefe;
 	box-shadow: 0 0 0.3rem 0.03rem #f0f0f0;
 }
-.chanpin-left>ul li{
+.caidan-left>ul li{
 	width: 100%;
 	height: 1.6rem;
 	color: #3d3d3d;
@@ -69,21 +71,21 @@
 	line-height: 1.6rem;
 	text-align: center;
 }
-.chanpin-left>ul .active{
+.caidan-left>ul .active{
 	font-size: 0.5rem;
 	color: #ec843b;
 }
-.chanpin-right{
+.caidan-right{
 	width: calc(100% - 2.25rem);
 	height: 100%;
 }
-.chanpin-right img{
+.caidan-right img{
 	width: 7.5rem;
 	height: 3rem;
 	display: block;
 	margin: 0 auto;
 }
-.chanpin-right .sji{
+.caidan-right .sji{
 	width: 100%;
 	height: 2rem;
 	margin-top: 0.2rem;
@@ -91,36 +93,39 @@
 	justify-content: center;
 	align-items: center;
 }
-.chanpin-right .sji .text{
+.caidan-right .sji .text{
 	font-size: 0.38rem;
 	color: #3c3c3c;
 	line-height: 2rem;
 	text-align: center;
 	margin: 0 0.32rem;
 }
-.chanpin-right .sji .xian{
+.caidan-right .sji .xian{
 	width: 0.6rem;
 	height: 0.04rem;
 	background: #e0e0e0;
 }
-.chanpin-right>ul{
+.caidan-right>ul{
 	width: 7rem;
 	height: 5.5rem;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
 }
-.chanpin-right>ul>li{
+.caidan-right>ul>li{
 	margin-left: 0.65rem;
 }
-.chanpin-right>ul img{
+.caidan-right>ul img{
 	width: 1.4rem;
 	height: 1.45rem;
 }
-.chanpin-right>ul>li .wenzi{
+.caidan-right>ul>li .wenzi{
 	font-size: 0.3rem;
 	color: #7d7d7d;
 	text-align: center;
 	margin-top: 0.44rem;
+}
+.bottom123{
+	padding-bottom: 1.4rem;
 }
 /* 菜单结束 */

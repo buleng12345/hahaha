@@ -1,0 +1,192 @@
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 1.23rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #f2f2f2;
+}
+.head .head-left{
+	width: 1.3rem;
+	height: 100%;
+	font-size: 0.58rem;
+	color: #919191;
+	line-height: 1.23rem;
+	text-align: center;
+}
+.head .head-right{
+	width: 1.3rem;
+	height: 100%;
+	font-size: 0.58rem;
+	color: #919191;
+	line-height: 1.23rem;
+	text-align: center;
+}
+.head .sousuo{
+	width: 7.88rem;
+	height: 0.7rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0,0,0,0.1);
+	font-size: 0.45rem;
+	line-height: 0.7rem;
+	color: #757575;
+	padding-left: 0.31rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.head .sousuo input{
+	width: 7.87rem;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 0.4rem;
+	padding-left: 0.02rem;
+	box-sizing: border-box;
+}
+/* 热门开始 */
+.remen{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+}
+.remen>span{
+	width: 2.3rem;
+	height: 1.2rem;
+	font-size: 0.32rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #3c3c3c;
+	margin-left: 0.1rem;
+}
+img{
+	width: 100%;
+	height: 4.52rem;
+}
+/* 热门结束 */
+/* 展品开始 */
+.zhan{
+	width: 100%;
+	height: 3.76rem;
+	margin-top: -0.28rem;
+}
+.zhan>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.zhan>ul>li{
+	font-size: 0.34rem;
+	color: #484848;
+	text-align: center;
+	line-height: 0.84rem;
+}
+.zhan>ul .zs1{
+	width: 2.44rem;
+	height: 0.84rem;
+	background: #f8eae9;
+	border: 0.03rem solid #fba0a7;
+	margin-left: 0.45rem;
+}
+.zhan>ul .zs2{
+	width: 2.44rem;
+	height: 0.84rem;
+	background: #f7f2ec;
+	border: 0.03rem solid #fac289;
+	margin-left: 0.3rem;
+}
+.zhan>ul .zs3{
+	width: 3.15rem;
+	height: 0.84rem;
+	background: #f8eae9;
+	border: 0.03rem solid #fba0a7;
+	margin-left: 0.3rem;
+}
+.zhan>ul .zs4{
+	width: 2.07rem;
+	height: 0.84rem;
+	background: #f8eae9;
+	border: 0.03rem solid #e5af97;
+	margin-left: 0.45rem;
+}
+.zhan>ul .zs5{
+	width: 1.46rem;
+	height: 0.84rem;
+	background: #f2f6e8;
+	border: 0.03rem solid #bbcf90;
+	margin-left: 0.3rem;
+}
+.zhan>ul .zs6{
+	width: 3.15rem;
+	height: 0.84rem;
+	background: #f7f2ec;
+	border: 0.03rem solid #fac289;
+	margin-right: 2.8rem;
+	margin-left: 0.3rem;
+}
+.zhan>ul .zs7{
+	width: 2.44rem;
+	height: 0.84rem;
+	background: #f8eae9;
+	border: 0.03rem solid #e3aab0;
+	margin-left: 0.45rem;
+}
+/* 展品结束 */
+/* 常用开始 */
+.changyong{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+}
+.changyong>span{
+	width: 2.3rem;
+	height: 1.2rem;
+	font-size: 0.32rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #3c3c3c;
+	margin-left: 0.1rem;
+}
+.cy-bottom{
+	width: 100%;
+	height: 2.15rem;
+}
+.cy-bottom>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.cy-bottom>ul>li{
+	background: #f5f5f5;
+	font-size: 0.3rem;
+	line-height: 0.82rem;
+	text-align: center;
+	color: #707070;
+}
+.cy-bottom>ul .bt-1{
+	width: 1.06rem;
+	height: 0.82rem;
+	margin-left: 0.45rem;
+}
+.cy-bottom>ul .bt-2{
+	width: 0.76rem;
+	height: 0.82rem;
+	margin-left: 0.4rem;
+}
+.cy-bottom>ul .bt-3{
+	width: 2.1rem;
+	height: 0.82rem;
+	margin-left: 0.4rem;
+}
+/* 常用结束 */

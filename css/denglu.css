@@ -1,0 +1,164 @@
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 4rem;
+	overflow: hidden;
+}
+.head img{
+	width: 1.7rem;
+	height: 1.7rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+}
+.head .text{
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	color: #000;
+	line-height: 0.5rem;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+/* head结束 */
+/* 登录开始 */
+.sji{
+	width: 9.12rem;
+	height: 1.6rem;
+	margin: 0 auto;
+	border-bottom: 0.03rem solid #d8d8d8;
+	display: flex;
+}
+.sji input{
+	width: 7rem;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+}
+.sji .text{
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	line-height: 1.6rem;
+}
+.dxing{
+	width: 9.12rem;
+	height: 1.6rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.03rem solid #d8d8d8;
+}
+.dxing .dxing-left input{
+	width: 5.6rem;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	/* margin-top: 0.05rem; */
+}
+.dxing .dxing-left{
+	width: 2.8rem;
+	height: 100%;
+	line-height: 1.6rem;
+	text-align: center;
+	display: flex;
+}
+.dxing .dxing-right{
+	width: 3.24rem;
+	height: 100%;
+	font-size: 0.38rem;
+	line-height: 1.6rem;
+	text-align: center;
+	color: #84b1c8;
+}
+.zhuce{
+	width: 9.12rem;
+	height: 1.3rem;
+	background: #ff6801;
+	font-size: 0.5rem;
+	line-height: 1.3rem;
+	text-align: center;
+	color: #fffaf0;
+	margin: 0.74rem auto;
+	border-radius: 0.2rem;
+}
+.yonghu{
+	width: 9.12rem;
+	height: 1.3rem;
+	margin: 0 auto;
+	border: 0.03rem solid #d8d8d8;
+	font-size: 0.5rem;
+	line-height: 1.3rem;
+	text-align: center;
+	color: #000;
+	border-radius: 0.2rem;
+}
+/* 其他开始 */
+.qita{
+	width: 100%;
+	height: 1.06rem;
+	margin-top: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.qita .text{
+	font-size: 0.34rem;
+	color: #b5b5b5;
+	line-height: 1.06rem;
+	text-align: center;
+	margin: 0 0.16rem;
+}
+.qita .xian{
+	width: 3.35rem;
+	height: 0.04rem;
+	background: #f2f2f2;
+}
+.tbiao3{
+	width: 9.12rem;
+	height: 1.3rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tbiao3 img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+.tbiao3 .zfb{
+	margin: 0 0.7rem;
+}
+/* 其他结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	margin-top: 1.2rem;
+	display: flex;
+	justify-content: center;
+}
+.dibu .text1{
+	font-size: 0.4rem;
+	color: #9b9b9b;
+	line-height: 1rem;
+}
+.dibu .line{
+	font-size: 0.4rem;
+	color: #9b9b9b;
+	line-height: 1rem;
+	margin: 0 0.35rem;
+}
+.dibu .active{
+	color: #4a4a4a;
+}
+/* 底部结束 */
