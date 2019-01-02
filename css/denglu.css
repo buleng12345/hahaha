@@ -9,8 +9,8 @@
 	overflow: hidden;
 }
 .head img{
-	width: 1.7rem;
-	height: 1.7rem;
+	width: 1.4rem;
+	height: 1.4rem;
 	display: block;
 	margin: 0 auto;
 	margin-top: 0.8rem;
@@ -18,11 +18,11 @@
 .head .text{
 	width: 100%;
 	height: 0.5rem;
-	font-size: 0.5rem;
+	font-size: 0.52rem;
 	color: #000;
 	line-height: 0.5rem;
 	text-align: center;
-	margin-top: 0.4rem;
+	margin-top: 0.5rem;
 }
 /* head结束 */
 /* 登录开始 */
