@@ -1,0 +1,110 @@
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head .head-left{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #9b9b9b;
+}
+.head .text{
+	width: 1.9rem;
+	height: 100%;
+	font-size: 0.45rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #626262;
+}
+.head .head-right{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #f2f2f2;
+}
+/* 头部结束 */
+/* 地址开始 */
+.dizhi{
+	width: 10.28rem;
+	height: 2.8rem;
+	margin: 0.2rem auto;
+	border: 0.03rem solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.dizhi .dizhi-top{
+	width: 9.18rem;
+	height: 1.1rem;
+	border-bottom: 0.03rem solid #ccc;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+}
+.dizhi-left{
+	width: 2.7rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #ff6700;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.dizhi-right{
+	width: 3.5rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #000;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.dizhi .dizhi-bottom{
+	width: 9.18rem;
+	height: 1.7rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dizhi .dizhi-bottom .xia-left{
+	width: 7.5rem;
+	height: 100%;
+	font-size: 0.36rem;
+	color: #323232;
+	line-height: 0.8rem;
+}
+.dizhi .dizhi-bottom .xia-right{
+	width: 1rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #000;
+	text-align: center;
+	line-height: 1.7rem;
+}
+/* 地址结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1.4rem;
+	background: #ff6700;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 0.38rem;
+	line-height: 1.4rem;
+	text-align: center;
+	color: #fff;
+}
+/* 底部开始 */
