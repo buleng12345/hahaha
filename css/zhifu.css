@@ -1,0 +1,349 @@
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 800;
+}
+.head .head-left{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #9b9b9b;
+}
+.head .text{
+	width: 1.9rem;
+	height: 100%;
+	font-size: 0.45rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #626262;
+}
+.head .head-right{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #f2f2f2;
+}
+/* 头部结束 */
+main{
+	padding-top: 1.5rem;
+	padding-bottom: 2.3rem;
+}
+/* 信息开始 */
+.tutiao{
+	width: 100%;
+	height: 0.14rem;
+	display: flex;
+}
+.tutiao img{
+	width: 1.5rem;
+	height: 100%;
+}
+.xinxi{
+	width: 100%;
+	height: 2.58rem;
+	display: flex;
+}
+.xinxi .xx-left{
+	width: 9.8rem;
+	height: 100%;
+}
+.xinxi .xx-left .xx-top{
+	width: 4.75rem;
+	height: 1.16rem;
+	font-size: 0.44rem;
+	color: #3b3b3b;
+	line-height: 1.16rem;
+	text-align: center;
+}
+.xinxi .xx-left .xx-bottom{
+	width: 9rem;
+	height: calc(100% - 1.16rem);
+	color: #8d8d8d;
+	font-size: 0.36rem;
+	text-align: left;
+	line-height: 0.5rem;
+	margin-left: 0.3rem;
+}
+.xinxi .xx-right{
+	width: calc(100% - 9.8rem);
+	height: 100%;
+	font-size: 0.43rem;
+	color: #414141;
+	text-align: center;
+	line-height: 2.58rem;
+}
+/* 信息结束 */
+.xiantiao{
+	width: 100%;
+	height: 0.24rem;
+	background: #f7f5f8;
+	border-top: 0.03rem solid #dee0dd;
+	border-bottom: 0.03rem solid #dee0dd;
+}
+/* 支付开始 */
+.wx-zf{
+	width: 9.65rem;
+	height: 1.36rem;
+	margin: 0 auto;
+	border-bottom: 0.03rem solid #efefef;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.wx-zf .wx-left{
+	width: 6.6rem;
+	height: 100%;
+	display: flex;
+}
+.wx-zf .wx-left .wx-tb{
+	width: 0.84rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.wx-zf .wx-left .wx-tb img{
+	width: 0.84rem;
+	height: 0.84rem;
+}
+.wx-zf .wx-left span{
+	font-size: 0.36rem;
+	color: #353535;
+	line-height: 1.36rem;
+	margin-left: 0.3rem;
+}
+.wx-zf .wx-right{
+	width: 0.64rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wx-zf .wx-right .xuanz{
+	width: 0.62rem;
+	height: 0.62rem;
+	background: #FF6700;
+	color: #fff;
+	font-size: 0.26rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.62rem;
+}
+.zfb-zf{
+	width: 9.65rem;
+	height: 1.36rem;
+	margin: 0 auto;
+	border-bottom: 0.03rem solid #efefef;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.zfb-zf .zfb-left{
+	width: 7rem;
+	height: 100%;
+	display: flex;
+}
+.zfb-zf .zfb-left .zfb-tb{
+	width: 0.84rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.zfb-zf .zfb-left .zfb-tb img{
+	width: 0.84rem;
+	height: 0.84rem;
+}
+.zfb-zf .zfb-left span{
+	font-size: 0.36rem;
+	color: #353535;
+	line-height: 1.36rem;
+	margin-left: 0.3rem;
+}
+.zfb-zf .zfb-left .zfb-xq{
+	font-size: 0.34rem;
+	color: #9c9c9c;
+	line-height: 1.36rem;
+}
+.zfb-zf .zfb-right{
+	width: 0.64rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.zfb-zf .zfb-right .xuanz{
+	width: 0.62rem;
+	height: 0.62rem;
+	background: #fff;
+	border-radius: 50%;
+	border: 0.03rem solid #efefef;
+	box-sizing: border-box;
+}
+.shouqi{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shouqi span{
+	font-size: 0.32rem;
+	color: #b7b7b7;
+}
+/* 支付结束 */
+/* 优惠开始 */
+.baoyou{
+	width: 9.65rem;
+	height: 1.36rem;
+	margin: 0 auto;
+	border-bottom: 0.03rem solid #efefef;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.baoyou .by-left{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.36rem;
+	color: #3c3c3c;
+	line-height: 1.36rem;
+}
+.baoyou .by-right{
+	width: 3rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #bebebe;
+	line-height: 1.36rem;
+	text-align: right;
+}
+.baoyou .by-right span{
+	color: #ff6700;
+	font-style: oblique;
+}
+/* 优惠结束 */
+/* 商品开始 */
+.shangpin{
+	width: 9.65rem;
+	height: 1.73rem;
+	margin: 0 auto;
+	border-bottom: 0.03rem solid #efefef;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.shangpin .sp-left{
+	width: 4.6rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.shangpin .sp-left img{
+	width: 1.24rem;
+	height: 1.24rem;
+}
+.shangpin .sp-left span{
+	font-size: 0.34rem;
+	color: #3b3b3b;
+	line-height: 1.73rem;
+}
+.shangpin .sp-right{
+	width: 1.2rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #3b3b3b;
+	line-height: 1.73rem;
+	text-align: right;
+	font-weight: bold;
+}
+/* 商品结束 */
+/* 收费开始 */
+.shoufei{
+	width: 100%;
+	height: 2.25rem;
+	background: #fff;
+	border-bottom: 0.03rem solid #efefef;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.shoufei .text{
+	width: 5.8rem;
+	height: 0.5rem;
+	background: #fff;
+	display: flex;
+}
+.shoufei .text span{
+	font-size: 0.36rem;
+	color: #3b3b3b;
+	line-height: 0.5rem;
+}
+.shoufei .text .jiachu{
+	margin-left: 0.67rem;
+	font-weight: bold;
+}
+/* 收费结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 2.3rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.dibu .dibu-top{
+	width: 100%;
+	height: 0.8rem;
+	background: #fdf7d5;
+	color: #caa684;
+	font-size: 0.36rem;
+	line-height: 0.8rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.dibu .dibu-top span{
+	margin: 0 0.3rem;
+}
+.dibu .dibu-bottom{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+}
+.dibu .dibu-bottom .dibu-left{
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	font-size: 0.46rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #ff6700;
+}
+.dibu .dibu-bottom .dibu-right{
+	width: 50%;
+	height: 100%;
+	background: #ff6700;
+	font-size: 0.46rem;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #fff;
+}
+/* 底部结束 */
